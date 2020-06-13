@@ -1,0 +1,16 @@
+2020-06-13 21:52:08,246 INFO [root] [__init__.py(<module>:9)] - 日志会不会打印
+2020-06-13 21:52:09,376 INFO [root] [test_department.py(test01_login_success:30)] - 返回的结果为: {'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'aa4f43b1-b324-4cc8-804a-787e1b485789'}
+2020-06-13 21:52:09,377 INFO [root] [test_department.py(test01_login_success:36)] - 保存到全局变量的请求头为: {'Content-Type': 'application/json', 'Authorization': 'Bearer aa4f43b1-b324-4cc8-804a-787e1b485789'}
+2020-06-13 21:52:09,501 INFO [root] [test_department.py(test02_add_dep:53)] - 添加部门的结果为: {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1271802647887818752'}}
+2020-06-13 21:52:09,502 INFO [root] [test_department.py(test02_add_dep:57)] - 保存到全局变量中的id为: 1271802647887818752
+2020-06-13 21:52:09,589 INFO [root] [test_department.py(test03_select_dep:71)] - 查询部门的结果为: {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1271802647887818752', 'pid': '0000000', 'companyId': '1', 'name': '测试呀呀呀布', 'code': 'E123456', 'managerId': None, 'manager': '李某某', 'introduce': '还是啥', 'createTime': None}}
+2020-06-13 21:52:09,797 INFO [root] [test_department.py(test04_modify_emp:85)] - 修改部门的结果为: {'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-06-13 21:52:09,912 INFO [root] [test_department.py(test05_delete_emp:99)] - 删除部门的结果为: {'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-06-13 21:52:24,755 INFO [root] [__init__.py(<module>:9)] - 日志会不会打印
+2020-06-13 21:52:25,510 INFO [root] [test_department.py(test01_login_success:30)] - 返回的结果为: {'success': True, 'code': 10000, 'message': '操作成功！', 'data': 'fbf5f1d4-87d3-48bf-ba24-58df21cd58d8'}
+2020-06-13 21:52:25,511 INFO [root] [test_department.py(test01_login_success:36)] - 保存到全局变量的请求头为: {'Content-Type': 'application/json', 'Authorization': 'Bearer fbf5f1d4-87d3-48bf-ba24-58df21cd58d8'}
+2020-06-13 21:52:25,616 INFO [root] [test_department.py(test02_add_dep:53)] - 添加部门的结果为: {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1271802715508387840'}}
+2020-06-13 21:52:25,616 INFO [root] [test_department.py(test02_add_dep:57)] - 保存到全局变量中的id为: 1271802715508387840
+2020-06-13 21:52:25,712 INFO [root] [test_department.py(test03_select_dep:71)] - 查询部门的结果为: {'success': True, 'code': 10000, 'message': '操作成功！', 'data': {'id': '1271802715508387840', 'pid': '0000000', 'companyId': '1', 'name': '测试呀呀呀布', 'code': 'E123456', 'managerId': None, 'manager': '李某某', 'introduce': '还是啥', 'createTime': None}}
+2020-06-13 21:52:25,798 INFO [root] [test_department.py(test04_modify_emp:85)] - 修改部门的结果为: {'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
+2020-06-13 21:52:25,900 INFO [root] [test_department.py(test05_delete_emp:99)] - 删除部门的结果为: {'success': True, 'code': 10000, 'message': '操作成功！', 'data': None}
